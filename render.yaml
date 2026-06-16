@@ -3,7 +3,6 @@ services:
   - type: web
     name: onepost
     runtime: docker
-    rootDir: social-publisher
     plan: free
     # manifest.json 在登录豁免名单中，设置访问密码后健康检查仍可通过
     healthCheckPath: /manifest.json
